@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/
+.idea
+.idea/Chihiro.iml
+.idea/codeStyles/codeStyleConfig.xml
