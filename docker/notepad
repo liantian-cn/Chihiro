@@ -31,7 +31,7 @@ docker exec -it Chihiro bash
 
 
 
-docker import Mitsuki.export.tar mitsuki:latest 
+docker import Chihiro.export.tar chihiro:latest 
 
 
 docker create \
@@ -43,7 +43,7 @@ docker create \
     --log-opt max-file=3 \
     --log-opt compress=true \
     --restart always  \
-    --name Mitsuki \
-    mitsuki:latest \
+    --name Chihiro \
+    chihiro:latest \
     /usr/bin/supervisord
 
